@@ -58,11 +58,38 @@ Purpose of using Cloud Technologies
 
 I prefer to use **"Amazon Web Services"** cloud technologies because it has lot of security feature and lot of reports to verify the transactions. 
 # ScreenShots
+**Sample Payload for SubmitPaymentGateway:** <br>
+{
+    "type": "card",
+    "number": "4543474002249996",
+    "expiry_month": 6,
+    "expiry_year": 2025,
+    "name": "Lawrence Muthian",
+    "cvv": "956",
+    "amount": 340,
+    "currency": "USD",
+    "payment_type": "Recurring",
+    "reference": "ORD-5023-testreference",
+    "description": "PaymemntsDescription",
+    "capture": true,
+    "capture_on": "2019-09-10T10:11:12Z",
+    "customer": {
+        "email": "lawrence.muthian@xpo.com",
+        "name": "Lawrence Muthian"
+    },
+    "success_url": "http://example.com/payments/success",
+    "failure_url": "http://example.com/payments/fail",
+    "payment_ip": "90.197.169.245"
+}
+<br><br>
 ![image](https://user-images.githubusercontent.com/63959021/166166955-f66b58f1-e1ca-465a-bf19-18d26f094bd1.png) <br>
 ![image](https://user-images.githubusercontent.com/63959021/166166985-b8922afa-005b-4f95-bb06-c194ffc21d63.png) <br>
 ![image](https://user-images.githubusercontent.com/63959021/166167033-4920fa6e-29f0-4e31-82a7-876fea1948c5.png) <br>
 ![image](https://user-images.githubusercontent.com/63959021/166167055-7d27135d-77b7-4999-9251-d5de18dc8761.png) <br>
 ![image](https://user-images.githubusercontent.com/63959021/166167094-871cf998-9f4b-4221-9e02-03c6ce644092.png) <br>
+
+**Sample Payment Id for GetPaymentDetails: "pay_phtt3fzybelktkunplqypjfvmy"** <br>
+
 ![image](https://user-images.githubusercontent.com/63959021/166167125-b0e02dbd-eff0-494d-9ba7-cecb7713eab8.png) <br>
 ![image](https://user-images.githubusercontent.com/63959021/166167143-ed14c0db-a35f-4778-9cdc-72b4a9a79ea2.png) <br>
 ![image](https://user-images.githubusercontent.com/63959021/166167160-6e5b1489-44d2-47ef-b179-096b5e1e5130.png) <br>
